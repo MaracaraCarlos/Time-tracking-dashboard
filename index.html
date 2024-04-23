@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="avatar_container">
+        <div class="top">
+          <div class="image_container">
+            <img src="images/image-jeremy.png" alt="Jeremy">
+          </div>
+          <div class="name_avatar">
+            <p>Report for</p>
+            <h2 class="name">Jeremy Robson</h2>
+          </div>
+        </div>
+        <ul>
+          <li><button class="dayly">Daily</button></li>
+          <li><button class="weekly">Weekly</button></li>
+          <li><button class="monthly">Monthly</button></li>
+        </ul>
+      </div>
+      <div class="work">
+        <div class="info">
+          <div class="title_option">
+            <h4>Work</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="work" class="low_part">
+            <h1 id="work_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="work_last">--hrs</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="play">
+        <div class="info">
+          <div class="title_option">
+            <h4>Play</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="play" class="low_part">
+            <h1 id="play_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="play_last">--hrs</span></p>            
+          </div>
+        </div>
+      </div>
+      <div class="study">
+        <div class="info">
+          <div class="title_option">
+            <h4>Study</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="study" class="low_part">
+            <h1 id="study_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="study_last">--hrs</span></p>            
+          </div>
+        </div>
+      </div>
+      <div class="exercise">
+        <div class="info">
+          <div class="title_option">
+            <h4>Exercise</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="exercise" class="low_part">
+            <h1 id="exercise_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="exercise_last">--hrs</span></p>            
+          </div>
+        </div>
+      </div>
+      <div class="social">
+        <div class="info">
+          <div class="title_option">
+            <h4>Social</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="social" class="low_part">
+            <h1 id="social_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="social_last">--hrs</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="self_care">
+        <div class="info">
+          <div class="title_option">
+            <h4>Self Care</h4>
+            <ion-icon name="ellipsis-horizontal"></ion-icon>
+          </div>
+          <div id="self_care" class="low_part">
+            <h1 id="self_care_hours" class="horas">--hrs</h1>
+            <p class="last">Last Week - <span id="self_care_last">--hrs</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Carlos Maracara</a>.
+    </div> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
